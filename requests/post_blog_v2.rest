@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvaG5PbGRtYW4iLCJpZCI6IjYwZmIzOGFhZDJmZjg3MGU0NTc1MWZjYiIsImlhdCI6MTYyNzA3NjgwNX0.7Yj9AnJxXf55jEQA0U3BEBUcpl-siLqrAPWsuM3yJzk
+
+{
+    "title": "How to learn React",
+    "author": "Peter Reactor",
+    "url": "https://howto.com/react/1",
+    "likes": "100"
+}
