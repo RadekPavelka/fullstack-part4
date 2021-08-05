@@ -209,9 +209,6 @@ test('a specified blog can be updated', async () => {
 })
 
 test('a specific blog can be deleted', async () => {
-  //const blogsAtStart = await helper.blogsInDb()
-  //const blogToDelete = blogsAtStart[0]
-
   await User.deleteMany({})
 
   const username = 'root'
